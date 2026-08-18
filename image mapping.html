@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+	<h1>Image mapping</h1>
+<p>Click on different parts of the image:</p>
+<img src="indiamap.jpeg" alt="India Map" usemap="#indiaMap" width="600"> <map name="indiaMap">
+
+<!-- Rectangle area -->
+<area shape="rect"
+coords="60,101,259,258"
+href="https://www.delhi.gov.in/"
+alt="Delhi">
+
+<!-- Circle area -->
+<area shape="circle"
+coords="582,331,65"
+href="https://www.maharashtra.gov.in/"
+alt="Maharashtra">
+
+<!-- Polygon area -->
+<area shape="poly"
+coords="300, 100, 350, 80, 400, 120, 370, 180, 320, 160"
+href="https://www.karnataka.gov.in/"
+alt="Karnataka">
+</map>
+</body>
+</html>
